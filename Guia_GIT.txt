@@ -1,0 +1,49 @@
+Creación de un repositorio
+___________________________
+
+1. git init (inicia git)
+2. git add . (con el . agrega todo)  // o se puede usar: git add <nombreArchivo>
+3. git commit - m 'Mensaje a elección' (Comprometo los archivos para subirlos)
+4. git add origin URL del repositorio (Configurar el repositorio remoto)
+5. git push origin master (envío los archivos al repositorio remoto)
+6. git pull origin master (trae los cambios del repositorio remoto)
+
+Mi repo: https://github.com/mechwarrior79/20210425-dh-fullstack.git
+
+Una guía online
+___________________________________________
+https://rogerdudler.github.io/git-guide/
+
+Todo los comandos:
+__________________________
+git status --> Devuelve el estado actual del repositorio
+
+git config user.name 'nombreUsuario' --> Setea el nombre de usuario de Github en nuestro repositorio para poder subir cambios
+
+git config user.email 'email' --> Setea el email de Github en nuestro repositorio para poder subir cambios
+
+Puede llegar la contraseña en un pop-up o abriendo una ventana de Github.
+
+(NOTA: Al configurar el usuario y mail podemos agregar -global a la linea del comando para que esta configuración sea la predeterminada para todos los repositorios   "git config -global user.email <email>" )
+
+git config -l (para listar los datos de usuario ingresados y url del repositorio)
+
+git remote add <url>  --> Agrega a la configuración la url del repositorio remoto donde impactarán los cambios
+
+git add <nombreArchivo> --> Agrega los cambios hechos en archivos a la etapa de 'stage'
+
+gita add . (agrega todos los cambios)
+
+git commit -m <mensaje a elección> --> Agrega los cambios de la etapa 'stage' para ser enviados al repositorio remoto
+
+git push origin master 
+o 
+git push origin main --> Envía los cambios del commit al repositorio remoto
+
+git push --set-upstream origin <branch> -> Agrega a la configuracion el push predeterminado para no especificar el remoto y la branch a la hora de ejecutar push
+
+(Luego en vez de 'git push origin main' podemos utilizar 'git push')
+
+git pull (bajo la versión más actualizada del proyecto )
+
+git clone <url> (copiar un repositorio remoto).

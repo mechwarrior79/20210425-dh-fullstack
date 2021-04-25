@@ -1,0 +1,15 @@
+[
+    {
+        "titulo":"Pasear al perro",
+        "estado":"terminada" 
+    },
+    {
+        "titulo":"Darle de comer al perro",
+        "estado":"en progreso"
+    },
+    {
+        "titulo":"Bañar al perro",
+        "estado":"pendiente"
+    }
+]
+
