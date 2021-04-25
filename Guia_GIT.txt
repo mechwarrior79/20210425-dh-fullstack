@@ -3,7 +3,7 @@ ___________________________
 
 1. git init (inicia git)
 2. git add . (con el . agrega todo)  // o se puede usar: git add <nombreArchivo>
-3. git commit - m 'Mensaje a elección' (Comprometo los archivos para subirlos)
+3. git commit -m 'Mensaje a elección' (Comprometo los archivos para subirlos)
 4. git add origin URL del repositorio (Configurar el repositorio remoto)
 5. git push origin master (envío los archivos al repositorio remoto)
 6. git pull origin master (trae los cambios del repositorio remoto)
